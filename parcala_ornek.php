@@ -17,10 +17,11 @@
 			Sadece 2 argüman alır.Bunlar sırasıyla:
 				1-Veri içinde hangi değer parçalanacak.
 				2-Hangi veri kullanılacak.
+				3-Limit Değer. (Otomatik olarak 255 değerini alır.)
 			
 			parcala(); fonksiyonu dışarı $parcalanan isminde Global bir değişken çıkarır.Bu değişkendeki veri bir array yani bir dizi olduğu için echo komudu ile çağırmak yerine echo var_dump(); veya print_r(); komutları kullanılır.
 			
-			explode(); fonksiyonunun 3.argümanı olan Limit değeri şuan da bu fonksiyonda çalışmamaktadır.
+			explode(); fonksiyonunun 3.argümanı olan Limit değeri güncelleme ile sisteme eklendi.
 	*/
 	
 	echo var_dump($parcalanan);
